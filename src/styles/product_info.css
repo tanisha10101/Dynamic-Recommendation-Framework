@@ -1,0 +1,103 @@
+/* ProductImage */
+
+
+.product-image {
+  width: 400px;
+  height: 350px;
+  object-fit: contain;
+  background-color: white;
+  margin-left: 25%;
+  margin-top:50px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+
+
+/*ProductInformation */
+.product-info {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.product-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product-description {
+  color: #666;
+  padding-left: 0%;
+  margin-bottom: 25px;
+}
+
+
+/* AddToCartButton */
+.add-to-cart-button {
+  background-color: rgb(221, 219, 219);
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0%;
+  padding-top: auto;
+  
+  padding-bottom: 0%;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-to-cart-button:hover {
+  background-color: #3c7ead;
+}
+/* Related Products */
+.recommend{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: #ccc 0.5px solid;
+}
+.recommendation{
+  margin:auto;
+  display: block;
+  object-fit: contain;
+  height: 80px;
+}
+.related-products {
+  margin-top: 20px;
+  padding: 20px;
+}
+.slick-slide img {
+  height: 200px;
+  display: block;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+
+/* Product Page */
+.product-page {
+  display: flex;
+  padding: 20px;
+  gap: 20px; /* Adjust the spacing as needed */
+  justify-content: center; /* Center the cards horizontally */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0%;
+  margin-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 3%;
+}
